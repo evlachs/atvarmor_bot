@@ -1,0 +1,7 @@
+from .menu_keyboard import main_menu_keyboard
+from .see_more_keyboard import see_more_keyboard_maker
+from .choose_technic_keyboard import choose_technic_keyboard
+from .technic_types_keyboards import see_atv_keyboard, see_bike_keyboard, see_snowmobile_keyboard, see_preowned_keyboard
+from .choose_city_keyboard import choose_city_keyboard
+from .show_address_keyboard import address_keyboard_maker
+from .go_to_manager_keyboard import manager_keyboard
