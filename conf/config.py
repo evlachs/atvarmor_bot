@@ -16,4 +16,4 @@ WEBHOOK_SSL_CERT = 'path/to/webhook_cert.pem'  # it's recommended to place it in
 WEBHOOK_SSL_PRIVATE = 'path/to/webhook_pkey.pem'  # it's recommended to place it in the 'data' folder
 
 WEBHOOK_URL_BASE = f'https://{WEBHOOK_HOST}:{WEBHOOK_PORT}'
-WEBHOOK_URL_PATH = f'/webhook/{BOT_TOKEN}'
+WEBHOOK_URL_PATH = f'/{BOT_TOKEN}'
