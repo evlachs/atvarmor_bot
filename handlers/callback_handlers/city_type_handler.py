@@ -1,8 +1,7 @@
 from aiogram import types
 
-from utils import NewsParser, make_address
-
 from loader import dp, bot
+from utils import NewsParser, make_address
 
 
 @dp.callback_query_handler(lambda c: c.data in ['moskva', 'podolsk'])
@@ -15,4 +14,3 @@ async def show_moscow_on_map(callback_query: types.CallbackQuery):
         post['text'],
         reply_markup=post['keyboard']
     )
-
