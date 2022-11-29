@@ -5,3 +5,4 @@ from .technic_types_keyboards import see_atv_keyboard, see_bike_keyboard, see_sn
 from .choose_city_keyboard import choose_city_keyboard
 from .show_address_keyboard import address_keyboard_maker
 from .go_to_manager_keyboard import manager_keyboard
+from .repeat_search_keyboard import repeat_search_button
