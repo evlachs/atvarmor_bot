@@ -96,7 +96,7 @@ class NewsParser:
             a = {
                 'title': f"<b>{event.find('Title').text}</b>",
                 'address': event.find('Address').text,
-                # 'phone': event.find('Phone').text,
+                'phone': event.find('Phone').text,
                 'time': event.find('Time').text,
                 'yandex_link': event.find('YandexLink').text
             }
